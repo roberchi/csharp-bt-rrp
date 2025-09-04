@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using BtClientLibrary;
 using BtClientLibrary.Models;
+using Xunit;
 
 namespace BtService.Tests;
 

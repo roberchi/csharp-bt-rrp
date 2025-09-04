@@ -1,6 +1,7 @@
 using BtService.Models;
 using BtService.Services;
 using Microsoft.Extensions.Logging;
+using Xunit;
 
 namespace BtService.Tests;
 
