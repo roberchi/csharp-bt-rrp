@@ -20,7 +20,7 @@ public class BluetoothManager
         var devices = new List<BluetoothDevice>();
         foreach (var client in _clients)
         {
-            devices.AddRange(await client.ScanAsync(cancellationToken));
+            devices.AddRange(await client.Scan(cancellationToken));
         }
         return devices;
     }
